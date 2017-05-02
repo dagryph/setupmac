@@ -15,8 +15,12 @@
   homebrew_tap:
     tap: "caskroom/cask"
 
-- name: tap homebrew neovim/homebrew-neovim 
+- name: tap homebrew drivers
   homebrew_tap:
-    tap: "neovim/homebrew-neovim"
+    tap: "cask/drivers"
     state: present
 
+- name: tap homebrew services
+  homebrew_tap:
+    tap: "cask/services"
+    state: present
