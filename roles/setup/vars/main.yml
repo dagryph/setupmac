@@ -5,48 +5,78 @@ general:
 
 # homebrew applications
 applications:
-  - autojump
+  - awscli
+  - ansible
+  - antigen
+  - certbot
+  - clamav
+  - consul
+  - docker
+  - docker-compose
+  - docker-machine
   - git
-  - tree
+  - gnupg2
+  - golang
   - httpie
-  - curl
-  - wget
-  - kubectl
-  - kubernetes-helm
-  - zsh
-  - go
-  - vim
-  - hugo
+  - nomad
+  - npm
+  - openssl
+  - openvpn
+  - packer
+  - python
+  - qemu
+  - rbenv
   - saltstack
-  - neovim
-  - ag 
-  - ctags
   - terraform
+  - vault
+  - wget
+  - yubikey-personalization
 
 # homebrew cask applications
 cask_applications:
-  - google-chrome
-  - slack
-  - iterm2
-  - caffeine
-  - docker
-  - minikube
-  - vagrant
-  - emacs
-  - garmin-express
-  - 1password
   - alfred
-  - virtualbox
-  - spotify
-  - steam
+  - box-edit
+  - coconutbattery
+  - cyberduck
+  - dashlane
+  - docker
+  - filezilla
+  - firefox
+  - franz
+  - geektool
+  - github-desktop
+  - gitkraken
+  - google-chrome
+  - google-hangouts
+  - grammarly
+  - grandperspective
+  - hipchat
+  - iterm2
+  - jetbrains-toolbox
+  - kitematic
+  - ksdiff
+  - ngrok
+  - postman
+  - powershell
+  - skype
+  - slack
+  - sourcetree
+  - sublime-text
+  - synergy
+  - tunnelblick
+  - vagrant
+  - vagrant-manager
+  - virtualbox virtualbox-extension-pack
+  - visual-studio-code
+  - visual-studio
+  - vmware-fusion
+  - whatsapp
+  - yubikey-piv-manager
+  - yubikey-neo-manager
+  - yubikey-personalization-gui
 
-downloads:
-   zwift:
-     name: Zwift
-     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
-     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
-   suuntolink:
-     name: Suunto Movescount link
-     url: http://suuntolink.static.movescount.com/Suuntolink_installer.dmg
-     dest: "{{general.local_home}}/Downloads/Suuntolink_installer.dmg"
-
+#downloads:
+#   zwift:
+#     name: Zwift
+#     url: http://cdn.zwift.com/app/ZwiftOSX.dmg
+#     dest: "{{general.local_home}}/Downloads/ZwiftOSX.dmg"
